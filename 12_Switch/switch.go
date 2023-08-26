@@ -42,7 +42,6 @@ func diasDaSemana2(numero int) string {
 	default:
 		return "Inválido"
 	}
-	}
 }
 
 func main() {
