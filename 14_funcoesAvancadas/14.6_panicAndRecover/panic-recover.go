@@ -2,7 +2,15 @@ package main
 
 import "fmt"
 
+
+func recuperar() {
+	if r:= recover(); r != nil {
+		fmt.Println("recuperando")
+	}
+}
+
 func alunoEstaAprovado(n1, n2 float32) bool {
+	defer recuperar()
 
 	media := (n1 + n2) / 2
 
