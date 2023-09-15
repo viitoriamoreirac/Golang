@@ -5,7 +5,7 @@ import "fmt"
 
 func recuperar() {
 	if r:= recover(); r != nil {
-		fmt.Println("recuperando")
+		fmt.Println("recuperando execução")
 	}
 }
 

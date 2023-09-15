@@ -8,7 +8,6 @@ func closure() func(){
 	function := func() {
 		fmt.Println(text)
 	}
-
 	return function
 }
 
